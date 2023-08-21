@@ -12,3 +12,7 @@ for (const item of array) {
 }
 return ul;
 }
+const array = [1, 2, 3, 4, 5, 'apple', 'orange'];
+const listContainer = document.getElementById('listContainer');
+const generatedList = generateList(array);
+listContainer.appendChild(generatedList);
